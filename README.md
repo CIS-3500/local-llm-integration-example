@@ -53,7 +53,7 @@ Also, don’t forget to CC marketing-team@website.co.uk."
 2. **Install the `phi-3.1-mini-128k-instruct` Model**: This is a ~2GB model that can handle simple tasks like data extraction. It's enough to demonstrate the flow without using too much GPU/CPU.  
 3. **Load Your Model**: In LM Studio, ensure the newly downloaded model is loaded and “running” (LM Studio usually shows a green check or “ready” status). 
 4. **Turn on API**: After activating "Developer mode" (using the toggle at the bottom of the window), go to the Developer tab (the second tab on the right toolbar, with a terminal icon), and make sure that the "Status: Running" toggle in **On**, at the top of the window. This will enable the local API for LM Studio. You can configure API settings by clicking on the nearby "Settings" button.
-4. **Check the API**: Confirm that LM Studio's local server is running by visiting [http://127.0.0.1:1234/v1/models](http://127.0.0.1:1234/v1/models). This is the only endpoint that supports the GET request from the browser. You should see a JSON list of models, including `"phi-3.1-mini-128k-instruct"`.
+5. **Check the API**: Confirm that LM Studio's local server is running by visiting [http://127.0.0.1:1234/v1/models](http://127.0.0.1:1234/v1/models). This is the only endpoint that supports the GET request from the browser. You should see a JSON list of models, including `"phi-3.1-mini-128k-instruct"`.
 
 ### 3. Local Environment Setup
 
